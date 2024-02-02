@@ -5,6 +5,7 @@ When working with activation functions like tanh and ReLU, if the weights aren't
 <a href="https://arxiv.org/abs/1502.01852">Kaiming</a> initialization is one solution that utilizes standard deviation and mean to normalize parameters. It incorporates a gain value and fan mode. The gain value varies depending on the activation functions used, and the fan mode determines whether to consider the input value of the layer (fan_in) or the output value (fan_out).<br />
 
 For example the below function is used for the tanh's kaiming init:
+
 $$
 \text{Kaiming initialization for tanh (normal)} : \quad \text{std} = \text{gain} \times \sqrt{\frac{1}{\text{fan\_in}}}
 $$
