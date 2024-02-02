@@ -7,7 +7,7 @@ When working with activation functions like tanh and ReLU, if the weights aren't
 For example the below function is used for the tanh's kaiming init:
 
 $$
-\text{Kaiming initialization for tanh (normal)} : \quad \text{std} = \text{gain} \times \sqrt{\frac{1}{\text{fan\_in}}}
+ \text{std} = \text{gain} \times \sqrt{\frac{1}{\text{fan mode}}}
 $$
 
 For tanh the gain is 5/3.
